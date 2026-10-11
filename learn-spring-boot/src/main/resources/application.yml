@@ -1,0 +1,25 @@
+server:
+  port: 8081   # 故意避开 interview-guide 项目的 8080，两个可同时跑
+
+spring:
+  application:
+    name: learn-spring-boot
+
+  # H2 内存数据库：不用装、不用连，应用启动时在内存里建表，停止即消失
+  # ddl-auto: create —— 启动时按 Entity 自动建表（学习用；主项目用 validate，对比见课程）
+  # DB_CLOSE_DELAY=-1：禁止"最后一个连接断开就销毁内存库"，让库与应用同生共死
+  datasource:
+    url: jdbc:h2:mem:learn;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true        # 控制台打印 JPA 生成的每条 SQL——"翻译官"的工作现场
+
+# Boot 出于安全默认只暴露 health；beans 端点默认关闭，实验需要手动打开
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,beans

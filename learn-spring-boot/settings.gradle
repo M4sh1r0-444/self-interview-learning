@@ -1,0 +1,12 @@
+// pluginManagement 管"插件"从哪下载（plugins {} 块里的东西），repositories 管"依赖"从哪下载
+// 两者是独立配置——这是本工程第一次启动踩的真实坑：漏配前者导致走了国外 Plugin Portal 证书失败
+pluginManagement {
+    repositories {
+        maven { url = uri('https://maven.aliyun.com/repository/public/') }
+        maven { url = uri('https://maven.aliyun.com/repository/gradle-plugin/') }
+        maven { url = uri('https://maven.aliyun.com/repository/spring-plugin/') }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'learn-spring-boot'

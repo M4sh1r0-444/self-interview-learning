@@ -1,0 +1,43 @@
+/*
+ * T1-1 补课实验工程：最小 Spring Boot
+ * 与 interview-guide 项目保持同版本（Boot 4.1 + Java 25），学到的直接对得上项目
+ */
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '4.1.0'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+repositories {
+    maven { url = uri('https://maven.aliyun.com/repository/public/') }
+    maven { url = uri('https://maven.aliyun.com/repository/spring/') }
+    mavenCentral()
+    maven { url = uri('https://repo.spring.io/milestone') }
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'   // @NotBlank/@Valid 校验
+
+    // JPA + H2 内存数据库（T1-4 实验：零安装的数据库，重启即清空，适合练手）
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // H2 从 runtimeOnly 升级为 implementation：H2ServerConfig 直接 import 了 org.h2.tools.Server，
+    // 编译期就要见到 H2 的类（runtimeOnly 只保证运行时可见，编译会报"程序包不存在"）
+    implementation 'com.h2database:h2'
+
+    // Lombok（与主项目同款写法：编译期生成代码，不打包进 jar）
+    compileOnly 'org.projectlombok:lombok:1.18.46'
+    annotationProcessor 'org.projectlombok:lombok:1.18.46'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 25
+}

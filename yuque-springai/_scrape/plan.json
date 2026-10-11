@@ -1,0 +1,157 @@
+[
+ {
+  "title": "项目介绍",
+  "slug": "gvi7xfgq8bq0zenw",
+  "path": "01-项目介绍.md"
+ },
+ {
+  "title": "本地搭建 PostgreSQL + PGvector 向量数据库",
+  "slug": "iluxz0t2lboglmex",
+  "path": "01-环境搭建/01-本地搭建 PostgreSQL + PGvector 向量数据库.md"
+ },
+ {
+  "title": "Spring Boot + RustFS 构建高性能 S3 兼容的对象存储服务",
+  "slug": "ak232s1mfmgp920w",
+  "path": "01-环境搭建/02-Spring Boot + RustFS 构建高性能 S3 兼容的对象存储服务.md"
+ },
+ {
+  "title": "⭐大模型 API 申请和 Ollama 部署本地模型",
+  "slug": "ugtn0lm8wtyeoc82",
+  "path": "01-环境搭建/03-⭐大模型 API 申请和 Ollama 部署本地模型.md"
+ },
+ {
+  "title": "环境搭建终章与项目启动",
+  "slug": "esk4na9s85h0kih0",
+  "path": "01-环境搭建/04-环境搭建终章与项目启动.md"
+ },
+ {
+  "title": "基于 Tika 实现多格式内容提取与解析",
+  "slug": "rg801wh4daa3dnoz",
+  "path": "02-核心功能开发/01-基于 Tika 实现多格式内容提取与解析.md"
+ },
+ {
+  "title": "万字详解大模型核心概念：Token、Temperature、上下文窗口、Prompt 工程、结构化输出",
+  "slug": "wmrx3llwphfxqu3s",
+  "path": "02-核心功能开发/02-万字详解大模型核心概念：Token、Temperature、上下文窗口、Prompt 工程、结构化输出.md"
+ },
+ {
+  "title": "⭐Spring AI 与大模型集成",
+  "slug": "sitooa06s5qs7qd4",
+  "path": "02-核心功能开发/03-⭐Spring AI 与大模型集成.md"
+ },
+ {
+  "title": "多 LLM 路由实战",
+  "slug": "ngplyskqqtk2f0e9",
+  "path": "02-核心功能开发/04-多 LLM 路由实战.md"
+ },
+ {
+  "title": "手把手教你写出生产级结构化 Prompt",
+  "slug": "znhrmtie49dba7x7",
+  "path": "02-核心功能开发/05-手把手教你写出生产级结构化 Prompt.md"
+ },
+ {
+  "title": "⭐模拟面试功能实现",
+  "slug": "ges6m5r4a0aeh4r0",
+  "path": "02-核心功能开发/06-⭐模拟面试功能实现.md"
+ },
+ {
+  "title": "基于 Spring AI Skills 实现多方向面试系统的架构演进",
+  "slug": "ikygop0vh7ubftpc",
+  "path": "02-核心功能开发/07-基于 Spring AI Skills 实现多方向面试系统的架构演进.md"
+ },
+ {
+  "title": "⭐Spring AI + pgvector 实现 RAG 知识库问答",
+  "slug": "grm2dzfgrcb16cb8",
+  "path": "02-核心功能开发/08-⭐Spring AI + pgvector 实现 RAG 知识库问答.md"
+ },
+ {
+  "title": "RAG 问答优化：多轮上下文与短查询命中修复",
+  "slug": "mnn5yigvhumlur1v",
+  "path": "02-核心功能开发/09-RAG 问答优化：多轮上下文与短查询命中修复.md"
+ },
+ {
+  "title": "基于 SSE 实现打字机效果输出",
+  "slug": "rfwnubp7b66e6q0c",
+  "path": "02-核心功能开发/10-基于 SSE 实现打字机效果输出.md"
+ },
+ {
+  "title": "基于 iText 8 实现 PDF 报告导出",
+  "slug": "lqcckshs644447fx",
+  "path": "02-核心功能开发/11-基于 iText 8 实现 PDF 报告导出.md"
+ },
+ {
+  "title": "⭐️基于知识库面试",
+  "slug": "dfi98e7yq0arozs7",
+  "path": "02-核心功能开发/12-⭐️基于知识库面试.md"
+ },
+ {
+  "title": "MapStruct 实体映射最佳实践",
+  "slug": "ewytsrnw5rihf1m9",
+  "path": "03-进阶优化/01-MapStruct 实体映射最佳实践.md"
+ },
+ {
+  "title": "⭐基于 Redis Stream 的异步任务处理实现",
+  "slug": "yk25d6iw6s21xczn",
+  "path": "03-进阶优化/02-⭐基于 Redis Stream 的异步任务处理实现.md"
+ },
+ {
+  "title": "⭐️封装 Redis + Lua 多维度分布式限流组件",
+  "slug": "iref4hm63f68nbf6",
+  "path": "03-进阶优化/03-⭐️封装 Redis + Lua 多维度分布式限流组件.md"
+ },
+ {
+  "title": "Prompt 注入防御设计",
+  "slug": "vqxq14c107o80ssh",
+  "path": "03-进阶优化/04-Prompt 注入防御设计.md"
+ },
+ {
+  "title": "Spring Boot 4.x 升级实战：Jackson 3、Spring AI 2.0 和 Boot 4.1 踩坑记录",
+  "slug": "ouioy5a5ckyfmofc",
+  "path": "03-进阶优化/05-Spring Boot 4.x 升级实战：Jackson 3、Spring AI 2.0 和 Boot 4.1 踩坑记录.md"
+ },
+ {
+  "title": "⭐简历编写与项目经历深度包装指南",
+  "slug": "ug00fz4skucap7mc",
+  "path": "04-面试/01-⭐简历编写与项目经历深度包装指南.md"
+ },
+ {
+  "title": "⭐️3w+ 字，后端亮点面试突击指南（必看）",
+  "slug": "spias81p78u1n6wp",
+  "path": "04-面试/02-⭐️3w+ 字，后端亮点面试突击指南（必看）.md"
+ },
+ {
+  "title": "面试官问“这个项目哪里来的”时，如何回答？",
+  "slug": "gppd538qtqy05gxo",
+  "path": "04-面试/03-面试官问“这个项目哪里来的”时，如何回答？.md"
+ },
+ {
+  "title": "⭐3.4w+字，35 道高频 RAG 面试题总结",
+  "slug": "vefhs5pbbhflaqbk",
+  "path": "04-面试/04-⭐3.4w+字，35 道高频 RAG 面试题总结.md"
+ },
+ {
+  "title": "⭐3w+字，29 道高频 SpringAI 面试题总结",
+  "slug": "gn5hmesbfb2fcr5w",
+  "path": "04-面试/05-⭐3w+字，29 道高频 SpringAI 面试题总结.md"
+ },
+ {
+  "title": "2.2w+字，28 道 Redis 高频面试题总结",
+  "slug": "qvfuh5tfa5lb2i7d",
+  "path": "04-面试/06-2.2w+字，28 道 Redis 高频面试题总结.md"
+ },
+ {
+  "title": "1.3w字，23 道 Prompt 工程面试题总结",
+  "slug": "xyrt9ys6cnes88g3",
+  "path": "04-面试/07-1.3w字，23 道 Prompt 工程面试题总结.md"
+ },
+ {
+  "title": "文件上传解析与 PDF 导出面试题",
+  "slug": "lst4ooqak8hbygw8",
+  "path": "04-面试/08-文件上传解析与 PDF 导出面试题.md"
+ },
+ {
+  "title": "面试常见问题补充",
+  "slug": "gsc65qnv474pxpy6",
+  "path": "04-面试/09-面试常见问题补充.md"
+ }
+]

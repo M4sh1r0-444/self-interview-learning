@@ -1,0 +1,29 @@
+# ==== 构建产物 ====
+build/
+dist/
+out/
+*.class
+
+# ==== 依赖 ====
+node_modules/
+
+# ==== IDE ====
+.idea/
+*.iml
+.vscode/
+
+# ==== Gradle 缓存 ====
+.gradle/
+
+# ==== 环境与密钥（绝不提交）====
+.env
+.env.local
+*.local
+
+# ==== 日志 ====
+*.log
+logs/
+
+# ==== OS ====
+.DS_Store
+Thumbs.db
